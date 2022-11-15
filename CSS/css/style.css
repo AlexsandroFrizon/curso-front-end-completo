@@ -1,0 +1,15 @@
+body {
+	background: pink;
+}
+
+.DIV_1{
+	background: grey;
+	color: white;
+	font-size: 25px;
+}
+
+/*Ataca somente o elemento filho com o sinal de > (Div filha)*/
+#DIV2 > h3{
+	color: green;
+	background: yellow;
+}
