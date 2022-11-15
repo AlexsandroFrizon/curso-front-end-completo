@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: black;
+	background-image: url("https://i.pinimg.com/564x/e7/44/61/e744614a274c3678558ed497d1688a9d.jpg");
+}
+
+div {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.artigo {
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+}
+
+.artigo > h1 {
+	color: red;
+	font-size: 22px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.artigo > p {
+	text-align: justify;
+	line-height: 25px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: "tahoma";
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+}
