@@ -1,0 +1,25 @@
+/*Reseta todas as propriedades*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+/*	margin é o espaçamento externo*/
+	text-align: center;
+	margin: 10px auto; 
+	width: 900px;
+	background: pink;
+}
+
+.menu > a {
+	padding: 8px;
+	margin: 0 10px;
+	color: grey;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+body {
+	background: grey;
+}
